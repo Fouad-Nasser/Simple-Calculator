@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
+typedef long long ll;
 
 int main(){
-    int x,y;
+    ll x,y;
     cin >>x>>y;
 
-    printf("%d + %d = %d\n",x,y,x+y);
-    printf("%d * %d = %d\n",x,y,x*y);
-    printf("%d - %d = %d\n",x,y,x-y);
+    printf("%lli + %lli = %lli\n",x,y,x+y);
+    printf("%lli * %lli = %lli\n",x,y,x*y);
+    printf("%lli - %lli = %lli\n",x,y,x-y);
 
     return 0;
 }
